@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
+    <script
+      src="https://kit.fontawesome.com/a69cb7f0b8.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="wrapper">
+      <header class="wrapper__welcome">
+        <h2 class="wrapper__title">devfinder</h2>
+        <div class="wrapper__switch-theme">
+          light
+          <i class="far fa-sun"></i>
+        </div>
+      </header>
+      <form class="wrapper__form" method="" action="">
+        <div class="wrapper__form--loupe">
+          <i class="fas fa-search fa-2x"></i>
+        </div>
+        <input
+          class="wrapper__input"
+          type="text"
+          name="search"
+          placeholder="Search GitHub username"
+        />
+        <input class="wrapper__submit" type="submit" value="Search" />
+      </form>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

@@ -1,4 +1,6 @@
 @import "_variables";
+@import "_header";
+@import "_form";
 
 * {
   margin: 0;
@@ -7,7 +9,16 @@
 }
 
 body {
+  width: 100%;
+  min-height: 100vh;
   font-family: $family;
   background-color: $dark;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 90%;
 }
